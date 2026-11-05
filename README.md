@@ -1,6 +1,6 @@
 # Deep-Learning-Based-Melt-Pool-Classification
 
-# Deep Learning-Based Melt-Pool Classification
+![Architecture Diagram](methodology.png)
 
 A PyTorch-based deep learning framework for multiclass classification of melt-pool morphologies in metal additive manufacturing using process parameters and material properties.
 
