@@ -75,6 +75,9 @@ The classification model is implemented using PyTorch and follows a fully connec
 | Output Layer | 5 neurons | Softmax for probabilities | — |
 
 
+![Architecture of the Model](model.png)
+
+
 
 
 The input dimension depends on the number of features generated after preprocessing.
