@@ -74,6 +74,9 @@ The classification model is implemented using PyTorch and follows a fully connec
 | Hidden Layer 3 | 32 neurons | ReLU | 0.10 |
 | Output Layer | 5 neurons | Softmax for probabilities | — |
 
+
+
+
 The input dimension depends on the number of features generated after preprocessing.
 
 ### Training configuration
@@ -131,6 +134,10 @@ Based on the current test-set confusion matrix:
 | Balanced Accuracy | 83.46% |
 | Macro F1-score | 84.39% |
 | Weighted F1-score | 80.73% |
+
+![Train-Validation Accuracy and loss Curves](graph.png)
+
+![Confusion Matrix](confusion.png)
 
 ### Class-wise observations
 
